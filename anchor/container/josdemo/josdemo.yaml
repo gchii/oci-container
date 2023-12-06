@@ -4,11 +4,12 @@ metadata:
   name: foo
 data:
     FOO: bar
+    JOSDEMO_SELF: https://josdemo.gchii.org/
 ---
 apiVersion: v1
 kind: Pod
 metadata:
-  name: foobar
+  name: josdemo
 spec:
   containers:
   - name: proxy
